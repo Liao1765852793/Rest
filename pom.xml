@@ -68,7 +68,12 @@
             <artifactId>jackson-annotations</artifactId>
             <version>RELEASE</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>com.nullptr</groupId>
+			<artifactId>nullptr-manager-dao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<!-- 配置Tomcat插件 -->
